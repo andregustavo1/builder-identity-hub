@@ -47,7 +47,7 @@ const Navbar = () => {
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className="inline-flex items-center justify-center p-2 rounded-md text-construction-900"
             >
-              <span className="sr-only">Open main menu</span>
+              <span className="sr-only">Abrir menu principal</span>
               {mobileMenuOpen ? (
                 <X className="block h-6 w-6" aria-hidden="true" />
               ) : (
@@ -80,12 +80,12 @@ interface NavLinksProps {
 
 const NavLinks = ({ className = "", mobile = false, onClick }: NavLinksProps) => {
   const links = [
-    { name: 'Home', href: '#hero' },
-    { name: 'Services', href: '#services' },
-    { name: 'Projects', href: '#projects' },
-    { name: 'About', href: '#about' },
-    { name: 'Team', href: '#team' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'Início', href: '#hero' },
+    { name: 'Serviços', href: '#services' },
+    { name: 'Projetos', href: '#projects' },
+    { name: 'Sobre', href: '#about' },
+    { name: 'Equipe', href: '#team' },
+    { name: 'Contato', href: '#contact' },
   ];
 
   return (

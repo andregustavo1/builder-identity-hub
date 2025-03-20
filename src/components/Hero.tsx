@@ -16,7 +16,7 @@ const Hero = () => {
     >
       {/* Background with overlay */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-gradient-to-r from-construction-950/90 to-construction-900/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-construction-950/95 to-construction-900/90"></div>
         <div className="bg-[url('https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=2070')] bg-cover bg-center bg-no-repeat absolute inset-0"></div>
       </div>
 
@@ -25,7 +25,7 @@ const Hero = () => {
         <div className="max-w-3xl space-y-8">
           <div className={`transition-all duration-1000 ${loaded ? 'opacity-100' : 'opacity-0 translate-y-10'}`}>
             <span className="inline-block px-4 py-1 border border-construction-accent text-construction-accent rounded-full text-sm font-medium tracking-wide mb-6">
-              EXCELLENCE IN CONSTRUCTION
+              EXCELÊNCIA EM CONSTRUÇÃO
             </span>
           </div>
           
@@ -34,7 +34,7 @@ const Hero = () => {
               loaded ? 'opacity-100' : 'opacity-0 translate-y-10'
             }`}
           >
-            Building <span className="text-construction-accent">Tomorrow's</span> Infrastructure Today
+            Construindo a <span className="text-construction-accent">Infraestrutura</span> do Amanhã Hoje
           </h1>
           
           <p 
@@ -42,7 +42,7 @@ const Hero = () => {
               loaded ? 'opacity-100' : 'opacity-0 translate-y-10'
             }`}
           >
-            We specialize in innovative construction solutions that turn ambitious visions into lasting realities.
+            Especializamos em soluções inovadoras de construção que transformam visões ambiciosas em realidades duradouras.
           </p>
           
           <div 
@@ -51,10 +51,10 @@ const Hero = () => {
             }`}
           >
             <a href="#contact" className="btn-accent">
-              Get in Touch
+              Entre em Contato
             </a>
             <a href="#services" className="px-6 py-3 border border-white/30 hover:border-white text-white rounded-md font-medium transition-all duration-300 hover:bg-white/10">
-              Our Services
+              Nossos Serviços
             </a>
           </div>
         </div>
@@ -67,7 +67,7 @@ const Hero = () => {
           loaded ? 'opacity-70 hover:opacity-100' : 'opacity-0'
         }`}
       >
-        <span className="text-sm mb-2">Scroll Down</span>
+        <span className="text-sm mb-2">Rolar para Baixo</span>
         <ArrowDownCircle className="animate-bounce w-6 h-6" />
       </a>
     </section>

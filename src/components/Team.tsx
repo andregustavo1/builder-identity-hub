@@ -39,43 +39,43 @@ const Team = () => {
 
   const teamMembers: TeamMember[] = [
     {
-      name: "Robert Johnson",
-      position: "Chief Executive Officer",
+      name: "Roberto Johnson",
+      position: "Diretor Executivo",
       imageUrl: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1974",
       socialLinks: {
         linkedin: "#",
         twitter: "#",
-        email: "mailto:robert@buildcorp.com"
+        email: "mailto:roberto@buildcorp.com"
       }
     },
     {
-      name: "Sarah Chen",
-      position: "Chief Operations Officer",
+      name: "Sara Chen",
+      position: "Diretora de Operações",
       imageUrl: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1976",
       socialLinks: {
         linkedin: "#",
         twitter: "#",
-        email: "mailto:sarah@buildcorp.com"
+        email: "mailto:sara@buildcorp.com"
       }
     },
     {
-      name: "Michael Torres",
-      position: "Lead Architect",
+      name: "Miguel Torres",
+      position: "Arquiteto Chefe",
       imageUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=2070",
       socialLinks: {
         linkedin: "#",
         twitter: "#",
-        email: "mailto:michael@buildcorp.com"
+        email: "mailto:miguel@buildcorp.com"
       }
     },
     {
-      name: "Emily Wilson",
-      position: "Project Manager",
+      name: "Emília Wilson",
+      position: "Gerente de Projetos",
       imageUrl: "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1961",
       socialLinks: {
         linkedin: "#",
         twitter: "#",
-        email: "mailto:emily@buildcorp.com"
+        email: "mailto:emilia@buildcorp.com"
       }
     }
   ];
@@ -84,9 +84,9 @@ const Team = () => {
     <section id="team" className="bg-construction-100 py-20" ref={sectionRef}>
       <div className="section-container">
         <div className="text-center mb-16">
-          <h2 className="section-title">Our Leadership Team</h2>
+          <h2 className="section-title">Nossa Equipe de Liderança</h2>
           <p className="section-subtitle mx-auto">
-            Meet the experts behind our successful projects and company vision
+            Conheça os especialistas por trás de nossos projetos bem-sucedidos e visão da empresa
           </p>
         </div>
 

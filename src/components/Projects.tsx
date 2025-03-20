@@ -34,27 +34,27 @@ const Projects = () => {
 
   const projects: Project[] = [
     {
-      title: "Urban Office Complex",
-      category: "Commercial",
-      description: "A 15-story premium office space in the downtown business district.",
+      title: "Complexo de Escritórios Urbano",
+      category: "Comercial",
+      description: "Um edifício premium de 15 andares no distrito comercial do centro da cidade.",
       imageUrl: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070"
     },
     {
-      title: "Highway Expansion Project",
-      category: "Infrastructure",
-      description: "Major highway expansion adding 6 lanes over 24 miles.",
+      title: "Projeto de Expansão de Rodovia",
+      category: "Infraestrutura",
+      description: "Expansão de rodovia principal adicionando 6 faixas ao longo de 24 quilômetros.",
       imageUrl: "https://images.unsplash.com/photo-1543465077-db45d34b88a5?q=80&w=2065"
     },
     {
-      title: "Riverfront Residences",
-      category: "Residential",
-      description: "Luxury condominium complex with state-of-the-art amenities.",
+      title: "Residências à Beira-rio",
+      category: "Residencial",
+      description: "Complexo de condomínios de luxo com comodidades de última geração.",
       imageUrl: "https://images.unsplash.com/photo-1545558014-8692077e9b5c?q=80&w=2070"
     },
     {
-      title: "Green Energy Manufacturing Plant",
+      title: "Fábrica de Energia Verde",
       category: "Industrial",
-      description: "Sustainable manufacturing facility designed for minimal environmental impact.",
+      description: "Instalação de manufatura sustentável projetada para impacto ambiental mínimo.",
       imageUrl: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2070"
     }
   ];
@@ -63,9 +63,9 @@ const Projects = () => {
     <section id="projects" className="bg-construction-100 py-20" ref={sectionRef}>
       <div className="section-container">
         <div className="text-center mb-16">
-          <h2 className="section-title">Our Projects</h2>
+          <h2 className="section-title">Nossos Projetos</h2>
           <p className="section-subtitle mx-auto">
-            A showcase of our finest work and landmark achievements
+            Uma amostra de nossos melhores trabalhos e conquistas marcantes
           </p>
         </div>
 
@@ -98,7 +98,7 @@ const Projects = () => {
                   href="#" 
                   className="inline-block mt-4 text-construction-accent font-medium hover:underline"
                 >
-                  View Project Details
+                  Ver Detalhes do Projeto
                 </a>
               </div>
             </div>
@@ -107,7 +107,7 @@ const Projects = () => {
 
         <div className="text-center mt-12">
           <a href="#" className="btn-primary">
-            View All Projects
+            Ver Todos os Projetos
           </a>
         </div>
       </div>

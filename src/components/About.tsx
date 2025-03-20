@@ -35,22 +35,22 @@ const About = () => {
   const stats: Stat[] = [
     {
       value: "25+",
-      label: "Years Experience",
+      label: "Anos de Experiência",
       icon: <Clock className="w-8 h-8 text-construction-accent" />
     },
     {
       value: "500+",
-      label: "Projects Completed",
+      label: "Projetos Concluídos",
       icon: <Building className="w-8 h-8 text-construction-accent" />
     },
     {
       value: "150+",
-      label: "Team Members",
+      label: "Membros na Equipe",
       icon: <Users className="w-8 h-8 text-construction-accent" />
     },
     {
       value: "30+",
-      label: "Industry Awards",
+      label: "Prêmios do Setor",
       icon: <Trophy className="w-8 h-8 text-construction-accent" />
     }
   ];
@@ -64,27 +64,27 @@ const About = () => {
               isVisible ? 'opacity-100 animate-slide-in' : 'opacity-0'
             }`}
           >
-            <h2 className="section-title mb-6">About Our Company</h2>
+            <h2 className="section-title mb-6">Sobre Nossa Empresa</h2>
             <p className="mb-6 text-construction-700">
-              Founded in 1998, BuildCorp has established itself as a leader in the construction industry, 
-              delivering excellence across commercial, residential, and infrastructure projects.
+              Fundada em 1998, a BuildCorp se estabeleceu como líder no setor de construção, 
+              entregando excelência em projetos comerciais, residenciais e de infraestrutura.
             </p>
             <p className="mb-6 text-construction-700">
-              Our mission is to transform the built environment through innovation, quality craftsmanship, 
-              and sustainable practices. We believe in building structures that stand the test of time 
-              and create lasting value for our clients and communities.
+              Nossa missão é transformar o ambiente construído através de inovação, qualidade de trabalho 
+              e práticas sustentáveis. Acreditamos na construção de estruturas que resistam ao teste do tempo 
+              e criem valor duradouro para nossos clientes e comunidades.
             </p>
             <p className="mb-8 text-construction-700">
-              With a team of highly skilled professionals and a commitment to utilizing cutting-edge 
-              technology, we tackle projects of any scale with precision and expertise.
+              Com uma equipe de profissionais altamente qualificados e um compromisso em utilizar tecnologia de ponta, 
+              abordamos projetos de qualquer escala com precisão e experiência.
             </p>
             
             <div className="flex space-x-4">
               <a href="#team" className="btn-primary">
-                Our Team
+                Nossa Equipe
               </a>
               <a href="#contact" className="px-6 py-3 border border-construction-800 text-construction-800 rounded-md font-medium transition-all duration-300 hover:bg-construction-800 hover:text-white">
-                Contact Us
+                Contate-nos
               </a>
             </div>
           </div>

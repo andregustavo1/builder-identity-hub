@@ -45,23 +45,23 @@ const Contact = () => {
   const contactInfo = [
     {
       icon: <Building className="w-5 h-5 text-construction-accent" />,
-      title: 'Our Headquarters',
-      content: '123 Construction Way, Building Plaza, CA 90210'
+      title: 'Nossa Sede',
+      content: 'Rua da Construção, 123, Praça do Edifício, SP 01000-000'
     },
     {
       icon: <Mail className="w-5 h-5 text-construction-accent" />,
-      title: 'Email Us',
-      content: 'info@buildcorp.com'
+      title: 'Email',
+      content: 'contato@buildcorp.com'
     },
     {
       icon: <Phone className="w-5 h-5 text-construction-accent" />,
-      title: 'Call Us',
-      content: '+1 (555) 123-4567'
+      title: 'Telefone',
+      content: '+55 (11) 4321-5678'
     },
     {
       icon: <MapPin className="w-5 h-5 text-construction-accent" />,
-      title: 'Working Hours',
-      content: 'Mon - Fri: 8:00 AM - 6:00 PM'
+      title: 'Horário de Funcionamento',
+      content: 'Seg - Sex: 8:00 - 18:00'
     }
   ];
 
@@ -69,32 +69,32 @@ const Contact = () => {
     <section id="contact" className="bg-white py-20">
       <div className="section-container">
         <div className="text-center mb-16">
-          <h2 className="section-title">Contact Us</h2>
+          <h2 className="section-title">Contate-nos</h2>
           <p className="section-subtitle mx-auto">
-            Get in touch with our team to discuss your construction needs
+            Entre em contato com nossa equipe para discutir suas necessidades de construção
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           <div className="bg-construction-100 rounded-lg p-8 animate-fade-in">
-            <h3 className="text-2xl font-bold mb-6 text-construction-800">Send us a Message</h3>
+            <h3 className="text-2xl font-bold mb-6 text-construction-800">Envie-nos uma Mensagem</h3>
             
             {formStatus === 'success' && (
               <div className="mb-6 p-4 bg-green-100 text-green-800 rounded-md animate-fade-in">
-                Thank you! Your message has been sent successfully. We'll get back to you soon.
+                Obrigado! Sua mensagem foi enviada com sucesso. Entraremos em contato em breve.
               </div>
             )}
             
             {formStatus === 'error' && (
               <div className="mb-6 p-4 bg-red-100 text-red-800 rounded-md animate-fade-in">
-                There was an error sending your message. Please try again later.
+                Ocorreu um erro ao enviar sua mensagem. Por favor, tente novamente mais tarde.
               </div>
             )}
             
             <form onSubmit={handleSubmit}>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
                 <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-construction-700 mb-1">Your Name</label>
+                  <label htmlFor="name" className="block text-sm font-medium text-construction-700 mb-1">Seu Nome</label>
                   <input
                     type="text"
                     id="name"
@@ -106,7 +106,7 @@ const Contact = () => {
                   />
                 </div>
                 <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-construction-700 mb-1">Email Address</label>
+                  <label htmlFor="email" className="block text-sm font-medium text-construction-700 mb-1">Email</label>
                   <input
                     type="email"
                     id="email"
@@ -121,7 +121,7 @@ const Contact = () => {
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
                 <div>
-                  <label htmlFor="phone" className="block text-sm font-medium text-construction-700 mb-1">Phone Number</label>
+                  <label htmlFor="phone" className="block text-sm font-medium text-construction-700 mb-1">Telefone</label>
                   <input
                     type="tel"
                     id="phone"
@@ -132,7 +132,7 @@ const Contact = () => {
                   />
                 </div>
                 <div>
-                  <label htmlFor="subject" className="block text-sm font-medium text-construction-700 mb-1">Subject</label>
+                  <label htmlFor="subject" className="block text-sm font-medium text-construction-700 mb-1">Assunto</label>
                   <select
                     id="subject"
                     name="subject"
@@ -141,17 +141,17 @@ const Contact = () => {
                     className="w-full px-4 py-2 border border-construction-300 rounded-md focus:ring-2 focus:ring-construction-accent focus:border-transparent"
                     required
                   >
-                    <option value="">Select a subject</option>
-                    <option value="General Inquiry">General Inquiry</option>
-                    <option value="Project Consultation">Project Consultation</option>
-                    <option value="Career Opportunities">Career Opportunities</option>
-                    <option value="Partnership">Partnership</option>
+                    <option value="">Selecione um assunto</option>
+                    <option value="General Inquiry">Informações Gerais</option>
+                    <option value="Project Consultation">Consulta de Projeto</option>
+                    <option value="Career Opportunities">Oportunidades de Carreira</option>
+                    <option value="Partnership">Parceria</option>
                   </select>
                 </div>
               </div>
               
               <div className="mb-6">
-                <label htmlFor="message" className="block text-sm font-medium text-construction-700 mb-1">Your Message</label>
+                <label htmlFor="message" className="block text-sm font-medium text-construction-700 mb-1">Sua Mensagem</label>
                 <textarea
                   id="message"
                   name="message"
@@ -164,7 +164,7 @@ const Contact = () => {
               </div>
               
               <button type="submit" className="btn-primary w-full sm:w-auto flex items-center justify-center">
-                Send Message
+                Enviar Mensagem
                 <ArrowRight className="ml-2 w-4 h-4" />
               </button>
             </form>
@@ -192,16 +192,16 @@ const Contact = () => {
             </div>
             
             <div className="bg-construction-900 text-white p-8 rounded-lg animate-fade-in">
-              <h3 className="text-2xl font-bold mb-4">Ready to Start Your Project?</h3>
+              <h3 className="text-2xl font-bold mb-4">Pronto para Iniciar seu Projeto?</h3>
               <p className="mb-6">
-                Our team of experts is ready to help you bring your vision to life. Contact us today for a free consultation.
+                Nossa equipe de especialistas está pronta para ajudar a transformar sua visão em realidade. Contate-nos hoje para uma consulta gratuita.
               </p>
               <div className="flex space-x-4">
-                <a href="tel:+15551234567" className="btn-accent">
-                  Call Now
+                <a href="tel:+551143215678" className="btn-accent">
+                  Ligue Agora
                 </a>
-                <a href="mailto:info@buildcorp.com" className="px-6 py-3 border border-white text-white rounded-md font-medium transition-all duration-300 hover:bg-white hover:text-construction-900">
-                  Email Us
+                <a href="mailto:contato@buildcorp.com" className="px-6 py-3 border border-white text-white rounded-md font-medium transition-all duration-300 hover:bg-white hover:text-construction-900">
+                  Envie um Email
                 </a>
               </div>
             </div>

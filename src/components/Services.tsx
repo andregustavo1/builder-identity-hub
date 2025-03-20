@@ -41,33 +41,33 @@ const Services = () => {
 
   const services: Service[] = [
     {
-      title: "Commercial Construction",
-      description: "High-quality office buildings, retail spaces, and commercial facilities built to exceed expectations.",
+      title: "Construção Comercial",
+      description: "Edifícios de escritórios, espaços comerciais e instalações de alta qualidade que superam expectativas.",
       icon: <Building2 className="w-10 h-10 text-construction-accent" />
     },
     {
-      title: "Industrial Projects",
-      description: "Specialized construction for manufacturing facilities, warehouses, and industrial complexes.",
+      title: "Projetos Industriais",
+      description: "Construção especializada para instalações de manufatura, armazéns e complexos industriais.",
       icon: <Factory className="w-10 h-10 text-construction-accent" />
     },
     {
-      title: "Infrastructure Development",
-      description: "Roads, bridges, and public works projects that connect communities and drive progress.",
+      title: "Desenvolvimento de Infraestrutura",
+      description: "Estradas, pontes e obras públicas que conectam comunidades e impulsionam o progresso.",
       icon: <Truck className="w-10 h-10 text-construction-accent" />
     },
     {
-      title: "Architectural Design",
-      description: "Innovative design solutions that blend aesthetics, functionality, and sustainability.",
+      title: "Design Arquitetônico",
+      description: "Soluções de design inovadoras que combinam estética, funcionalidade e sustentabilidade.",
       icon: <PencilRuler className="w-10 h-10 text-construction-accent" />
     },
     {
-      title: "Construction Management",
-      description: "Expert oversight of projects from concept to completion, ensuring quality, timeline, and budget adherence.",
+      title: "Gestão de Construção",
+      description: "Supervisão especializada de projetos do conceito à conclusão, garantindo qualidade, cronograma e orçamento.",
       icon: <HardHat className="w-10 h-10 text-construction-accent" />
     },
     {
-      title: "Renovation & Retrofitting",
-      description: "Modernization and upgrades of existing structures to enhance functionality and efficiency.",
+      title: "Renovação e Modernização",
+      description: "Modernização e atualizações de estruturas existentes para melhorar funcionalidade e eficiência.",
       icon: <Wrench className="w-10 h-10 text-construction-accent" />
     }
   ];
@@ -76,9 +76,9 @@ const Services = () => {
     <section id="services" className="bg-white py-20" ref={sectionRef}>
       <div className="section-container">
         <div className="text-center mb-16">
-          <h2 className="section-title">Our Services</h2>
+          <h2 className="section-title">Nossos Serviços</h2>
           <p className="section-subtitle mx-auto">
-            Comprehensive construction solutions tailored to your specific needs
+            Soluções completas de construção adaptadas às suas necessidades específicas
           </p>
         </div>
 
