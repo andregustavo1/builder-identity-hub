@@ -16,8 +16,9 @@ const Hero = () => {
     >
       {/* Background with overlay - Making it much darker */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-black/85"></div>
+        
         <div className="bg-[url('https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=2070')] bg-cover bg-center bg-no-repeat absolute inset-0"></div>
+        <div className="absolute inset-0 bg-black/55"></div>
       </div>
 
       {/* Content */}

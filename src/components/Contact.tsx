@@ -75,8 +75,8 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-          <div className="bg-construction-100 rounded-lg p-8 animate-fade-in">
+        <div className="grid grid-cols-1 gap-12 place-items-center">
+          {/* <div className="bg-construction-100 rounded-lg p-8 animate-fade-in">
             <h3 className="text-2xl font-bold mb-6 text-construction-800">Envie-nos uma Mensagem</h3>
             
             {formStatus === 'success' && (
@@ -168,7 +168,7 @@ const Contact = () => {
                 <ArrowRight className="ml-2 w-4 h-4" />
               </button>
             </form>
-          </div>
+          </div> */}
           
           <div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">

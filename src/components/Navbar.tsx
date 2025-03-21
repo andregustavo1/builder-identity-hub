@@ -33,7 +33,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <div className="flex items-center">
             <a href="#" className="text-construction-900 font-display font-bold text-2xl">
-              <span className="text-construction-accent">BUILD</span>CORP
+              <span className="text-construction-accent">Enjoy</span>CORP
             </a>
           </div>
           
