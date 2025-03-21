@@ -34,22 +34,22 @@ const About = () => {
 
   const stats: Stat[] = [
     {
-      value: "25+",
+      value: "15+",
       label: "Anos de Experiência",
       icon: <Clock className="w-8 h-8 text-construction-accent" />
     },
     {
-      value: "500+",
+      value: "300+",
       label: "Projetos Concluídos",
       icon: <Building className="w-8 h-8 text-construction-accent" />
     },
     {
-      value: "150+",
+      value: "50+",
       label: "Membros na Equipe",
       icon: <Users className="w-8 h-8 text-construction-accent" />
     },
     {
-      value: "30+",
+      value: "20+",
       label: "Prêmios do Setor",
       icon: <Trophy className="w-8 h-8 text-construction-accent" />
     }
@@ -66,17 +66,16 @@ const About = () => {
           >
             <h2 className="section-title mb-6">Sobre Nossa Empresa</h2>
             <p className="mb-6 text-construction-700">
-              Fundada em 1998, a BuildCorp se estabeleceu como líder no setor de construção, 
-              entregando excelência em projetos comerciais, residenciais e de infraestrutura.
+              A Enjoy Comércio e Construções se estabeleceu como referência no setor de construção civil,
+              oferecendo soluções completas para projetos, aprovações e execuções de edificações.
             </p>
             <p className="mb-6 text-construction-700">
-              Nossa missão é transformar o ambiente construído através de inovação, qualidade de trabalho 
-              e práticas sustentáveis. Acreditamos na construção de estruturas que resistam ao teste do tempo 
-              e criem valor duradouro para nossos clientes e comunidades.
+              Desde o projeto das obras, aprovação e execução de todo tipo de edificações, pavimentações 
+              e terraplanagem, a Enjoy trabalha com excelência e compromisso.
             </p>
             <p className="mb-8 text-construction-700">
-              Com uma equipe de profissionais altamente qualificados e um compromisso em utilizar tecnologia de ponta, 
-              abordamos projetos de qualquer escala com precisão e experiência.
+              Além da construção civil, atuamos também na comercialização de equipamentos pesados para 
+              indústria e construtoras, garantindo sempre as melhores soluções para nossos clientes.
             </p>
             
             <div className="flex space-x-4">

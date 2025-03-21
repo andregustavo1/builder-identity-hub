@@ -15,10 +15,10 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
             <a href="#" className="text-white font-display font-bold text-2xl mb-6 inline-block">
-              <span className="text-construction-accent">BUILD</span>CORP
+              <span className="text-construction-accent">ENJOY</span> CONSTRUÇÕES
             </a>
             <p className="text-gray-400 mb-6">
-              Construindo excelência através de inovação, qualidade e integridade desde 1998.
+              Atuando com excelência em construções, reformas, comércio de máquinas pesadas e projetos.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="w-8 h-8 rounded-full bg-construction-800 flex items-center justify-center text-white hover:bg-construction-accent transition-colors">
@@ -64,22 +64,22 @@ const Footer = () => {
             <h3 className="text-lg font-bold mb-6">Serviços</h3>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">Construção Comercial</a>
+                <a href="#" className="text-gray-400 hover:text-white transition-colors">Construções e Reformas</a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">Projetos Industriais</a>
+                <a href="#" className="text-gray-400 hover:text-white transition-colors">Comércio de Máquinas Pesadas</a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">Desenvolvimento de Infraestrutura</a>
+                <a href="#" className="text-gray-400 hover:text-white transition-colors">Projetos e Aprovações</a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">Design Arquitetônico</a>
+                <a href="#" className="text-gray-400 hover:text-white transition-colors">Terraplanagem</a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">Gestão de Construção</a>
+                <a href="#" className="text-gray-400 hover:text-white transition-colors">Pavimentações</a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">Renovação e Modernização</a>
+                <a href="#" className="text-gray-400 hover:text-white transition-colors">Edificações</a>
               </li>
             </ul>
           </div>
@@ -87,13 +87,13 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-bold mb-6">Contate-nos</h3>
             <address className="not-italic text-gray-400">
-              <p className="mb-3">Rua da Construção, 123</p>
-              <p className="mb-3">Praça do Edifício, SP 01000-000</p>
+              <p className="mb-3">Morumbi</p>
+              <p className="mb-3">São Paulo - SP</p>
               <p className="mb-3">
-                <a href="tel:+551143215678" className="hover:text-white transition-colors">+55 (11) 4321-5678</a>
+                <a href="tel:+5511974752156" className="hover:text-white transition-colors">(11) 97475-2156</a>
               </p>
               <p className="mb-3">
-                <a href="mailto:contato@buildcorp.com" className="hover:text-white transition-colors">contato@buildcorp.com</a>
+                <a href="mailto:enjoyconstrucoes@yahoo.com" className="hover:text-white transition-colors">enjoyconstrucoes@yahoo.com</a>
               </p>
             </address>
           </div>
@@ -101,12 +101,11 @@ const Footer = () => {
         
         <div className="border-t border-construction-800 pt-8 mt-8 flex flex-col sm:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm mb-4 sm:mb-0">
-            &copy; {new Date().getFullYear()} BuildCorp. Todos os direitos reservados.
+            &copy; {new Date().getFullYear()} Enjoy Comércio e Construções. Todos os direitos reservados.
           </p>
           <div className="flex space-x-6 text-sm text-gray-400">
             <a href="#" className="hover:text-white transition-colors">Política de Privacidade</a>
             <a href="#" className="hover:text-white transition-colors">Termos de Serviço</a>
-            <a href="#" className="hover:text-white transition-colors">Carreiras</a>
           </div>
         </div>
       </div>

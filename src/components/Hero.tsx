@@ -14,9 +14,9 @@ const Hero = () => {
       id="hero" 
       className="relative h-screen flex items-center justify-center overflow-hidden bg-construction-900"
     >
-      {/* Background with overlay */}
+      {/* Background with overlay - Making it much darker */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-gradient-to-r from-construction-950/95 to-construction-900/90"></div>
+        <div className="absolute inset-0 bg-black/85"></div>
         <div className="bg-[url('https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=2070')] bg-cover bg-center bg-no-repeat absolute inset-0"></div>
       </div>
 
@@ -34,7 +34,7 @@ const Hero = () => {
               loaded ? 'opacity-100' : 'opacity-0 translate-y-10'
             }`}
           >
-            Construindo a <span className="text-construction-accent">Infraestrutura</span> do Amanhã Hoje
+            <span className="text-construction-accent">Enjoy</span> Comércio e Construções
           </h1>
           
           <p 
@@ -42,7 +42,7 @@ const Hero = () => {
               loaded ? 'opacity-100' : 'opacity-0 translate-y-10'
             }`}
           >
-            Especializamos em soluções inovadoras de construção que transformam visões ambiciosas em realidades duradouras.
+            Construções e reformas em geral, comércio de máquinas pesadas, projetos e aprovações.
           </p>
           
           <div 

@@ -46,17 +46,17 @@ const Contact = () => {
     {
       icon: <Building className="w-5 h-5 text-construction-accent" />,
       title: 'Nossa Sede',
-      content: 'Rua da Construção, 123, Praça do Edifício, SP 01000-000'
+      content: 'Morumbi, São Paulo - SP'
     },
     {
       icon: <Mail className="w-5 h-5 text-construction-accent" />,
       title: 'Email',
-      content: 'contato@buildcorp.com'
+      content: 'enjoyconstrucoes@yahoo.com'
     },
     {
       icon: <Phone className="w-5 h-5 text-construction-accent" />,
       title: 'Telefone',
-      content: '+55 (11) 4321-5678'
+      content: '(11) 97475-2156'
     },
     {
       icon: <MapPin className="w-5 h-5 text-construction-accent" />,
@@ -71,7 +71,7 @@ const Contact = () => {
         <div className="text-center mb-16">
           <h2 className="section-title">Contate-nos</h2>
           <p className="section-subtitle mx-auto">
-            Entre em contato com nossa equipe para discutir suas necessidades de construção
+            Entre em contato com nossa equipe para discutir seus projetos e necessidades
           </p>
         </div>
 
@@ -142,10 +142,10 @@ const Contact = () => {
                     required
                   >
                     <option value="">Selecione um assunto</option>
-                    <option value="General Inquiry">Informações Gerais</option>
-                    <option value="Project Consultation">Consulta de Projeto</option>
-                    <option value="Career Opportunities">Oportunidades de Carreira</option>
-                    <option value="Partnership">Parceria</option>
+                    <option value="Construção">Construção ou Reforma</option>
+                    <option value="Comércio">Equipamentos Pesados</option>
+                    <option value="Projetos">Projetos e Aprovações</option>
+                    <option value="Outro">Outro</option>
                   </select>
                 </div>
               </div>
@@ -194,13 +194,13 @@ const Contact = () => {
             <div className="bg-construction-900 text-white p-8 rounded-lg animate-fade-in">
               <h3 className="text-2xl font-bold mb-4">Pronto para Iniciar seu Projeto?</h3>
               <p className="mb-6">
-                Nossa equipe de especialistas está pronta para ajudar a transformar sua visão em realidade. Contate-nos hoje para uma consulta gratuita.
+                Nossa equipe de especialistas está pronta para ajudar a transformar sua visão em realidade. Contate-nos hoje para uma consulta.
               </p>
               <div className="flex space-x-4">
-                <a href="tel:+551143215678" className="btn-accent">
+                <a href="tel:+5511974752156" className="btn-accent">
                   Ligue Agora
                 </a>
-                <a href="mailto:contato@buildcorp.com" className="px-6 py-3 border border-white text-white rounded-md font-medium transition-all duration-300 hover:bg-white hover:text-construction-900">
+                <a href="mailto:enjoyconstrucoes@yahoo.com" className="px-6 py-3 border border-white text-white rounded-md font-medium transition-all duration-300 hover:bg-white hover:text-construction-900">
                   Envie um Email
                 </a>
               </div>
