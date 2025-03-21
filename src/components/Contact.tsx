@@ -61,7 +61,7 @@ const Contact = () => {
     {
       icon: <MapPin className="w-5 h-5 text-construction-accent" />,
       title: 'Horário de Funcionamento',
-      content: 'Seg - Sex: 8:00 - 18:00'
+      content: 'Seg - Sex: 8:00 - 18:00' 
     }
   ];
 
